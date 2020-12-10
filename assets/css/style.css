@@ -25,7 +25,7 @@ body {
 }
 
 /* 'div' should be changed to nav to agree with html doc */
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,12 +34,12 @@ body {
 }
 
 /* 'div' should be changed to nav to agree with html doc */
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
 /* 'div' should be changed to nav to agree with html doc */
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
