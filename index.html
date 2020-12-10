@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Update Website Title-- "Horiseon" -->
+        <!-- Title can be more descriptive, use "Horiseon Social Solution Services" -->
     <title>Horiseon</title>
 </head>
 
@@ -37,11 +38,11 @@
         <!-- add alt attribute for hero "Digital Marketing Meet-up" -->
     <figure class="hero" alt="Digital Marketing Meet-up"></figure>
     <!-- div will be changed to sections, each insuing section will change to article -->
-    <div class="content">
+    <section class="content">
         <!-- <div> should be changed to <section> -->
             <!-- <section> to <article> -->
             <!-- missing id="search-enginge-optiminzation", gives us a dead link" -->
-        <section id="search-engine-optimization" class="search-engine-optimization">
+        <article id="search-engine-optimization" class="search-engine-optimization">
             <!-- add alt attribute for img "Search Enginge Optimization -->
             <img src="./assets/images/search-engine-optimization.jpg" alt="Search Enginge Optimization" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -49,10 +50,10 @@
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         <!-- remeber </section> -->
-        </section>
+        </article>
         <!-- <div> should be changed to <section> -->
             <!-- <section> to <article> -->
-        <section id="online-reputation-management" class="online-reputation-management">
+        <article id="online-reputation-management" class="online-reputation-management">
             <!-- add alt attribute for img "Oline Reputation Managment" -->
             <img src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Managmenet" class="float-right" />
             <h2>Online Reputation Management</h2>
@@ -60,10 +61,10 @@
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         <!-- remeber </section> -->
-        </section>
+        </article>
         <!-- <div> should be changed to <section> -->
             <!-- <section> to <article> -->
-        <section id="social-media-marketing" class="social-media-marketing">
+        <article id="social-media-marketing" class="social-media-marketing">
             <!-- add all attribute for img "Social Media Marketing" -->
             <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing" class="float-left" />
             <h2>Social Media Marketing</h2>
@@ -71,10 +72,12 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         <!-- remeber </section> -->
-        </section>
-    </div>
+        </article>
+    </section>
+    <!-- <div> here will be changed to <aside>, prior <aside>s change to <figure> -->
     <div class="benefits">
         <!-- <div> should be changed to <aside> -->
+            <!-- <aside> changes to <figure> -->
         <aside class="benefit-lead">
             <h3>Lead Generation</h3>
             <!-- Add alt attribute to img "Lead Generation" -->
@@ -85,6 +88,7 @@
         <!-- remember </aside> -->
         </aside>
         <!-- <div> should be changed to <aside> -->
+            <!-- <aside> changes to <figure> -->
         <aside class="benefit-brand">
             <h3>Brand Awareness</h3>
             <!-- Add alt attribute to img "Brand Awareness" -->
@@ -95,6 +99,7 @@
         <!-- remember </aside> -->
         </aside>
         <!-- <div> should be changed to <aside> -->
+            <!-- <aside> changes to <figure> -->
         <aside class="benefit-cost">
             <h3>Cost Management</h3>
             <!-- Add alt attribute to img "Cost Management" -->
@@ -109,7 +114,8 @@
     <!-- Change <div> to <footer> -->
     <footer class="footer">
         <!-- Wrap emoji with <span> inlcude attributes role="img" and aria-label="love" -->
-        <h2>Made with <span role=img aria-label="love">❤️</span>️ by Horiseon</h2>
+        <!-- <h2> changes to <h4> to agree with heirachry of headers -->
+            <h2>Made with <span role=img aria-label="love">❤️</span>️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
