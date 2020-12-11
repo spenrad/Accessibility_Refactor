@@ -56,6 +56,10 @@ This wrapping lets a screen reader know there is a non-text image within the ele
 
 ----
 
+## Appearance
+
+![Demo](assets/images/Horiseon-Demo.png)
+
 ## Built Using
 * HTML5
 * CSS
